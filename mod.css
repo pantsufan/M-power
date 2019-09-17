@@ -33,3 +33,22 @@ h1,h2,strong {
 h3,small,li,a {
     font-family: 'Montserrat', sans-serif;
 }
+
+.links  a{
+    background-color:#00AFF0;
+  box-shadow: 0 5px 0 #3E4095;
+  color: white;
+  padding: 1em 1.5em;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links  a:hover {
+  background-color:  #EC3237;
+}
+
+.links  a:active {
+  box-shadow: none;
+  top: 5px;
+}
